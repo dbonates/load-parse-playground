@@ -1,7 +1,7 @@
 /*:
 ## Carregando e fazendo parse de JSON - básico
 _por Daniel Bonates_
-artigo relacionado: http://cocoaheadsbrasil.github.io/equinociOS/categoria/2016/03/02/2016-03-02-ios-web-e-json-sem-dependencias/
+artigo relacionado: [http://equinocios.com/ios/2016/03/02/ios-web-e-json-sem-dependencias/](http://equinocios.com/ios/2016/03/02/ios-web-e-json-sem-dependencias/)
 */
 
 import UIKit

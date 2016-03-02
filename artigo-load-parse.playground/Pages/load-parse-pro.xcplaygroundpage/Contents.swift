@@ -1,7 +1,7 @@
 /*:
 ## Carregando e fazendo parse de JSON - intermediário
 _por Daniel Bonates_
-artigo relacionado: http://cocoaheadsbrasil.github.io/equinociOS/categoria/2016/03/02/2016-03-02-ios-web-e-json-sem-dependencias/
+artigo relacionado: [http://equinocios.com/ios/2016/03/02/ios-web-e-json-sem-dependencias/](http://equinocios.com/ios/2016/03/02/ios-web-e-json-sem-dependencias/)
 */
 
 import UIKit
@@ -167,8 +167,6 @@ if let url = NSURL(string: "https://gist.githubusercontent.com/dbonates/4bf4017d
     
     let request:NSMutableURLRequest = NSMutableURLRequest(URL:url)
     
-    var allUsersList:[User] = []
-    
     requestData(request, callback: { (data, error) -> () in
         
         if let error = error {
@@ -182,12 +180,7 @@ if let url = NSURL(string: "https://gist.githubusercontent.com/dbonates/4bf4017d
                 
                 print("aqui está seu json:\n\(usersJson)")
                 
-                for user in usersJson {
-                    if let validUser = User.withJSON(user) {
-                        allUsersList.append(validUser)
-                    }
-                    
-                }
+                let allUsersList = usersJson.flatMap(User.withJSON)
                 
                 // verificando...
                 
