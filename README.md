@@ -15,17 +15,4 @@ Swift playground demonstrando o uso de load e parse de json da web sem recorrer 
 2. [iOSDevBR](https://iosdevbr.slack.com) é uma comunidade de desenvolvedores iOS e interessados no Slack. Chega lá :wink:
 
 --
-
-<style>
-.text-muted {
-  color: #777;
-}
-
-.copyright {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-</style>
 <p class="copyright text-muted"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0; display: inline;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Atribuição-NãoComercial 4.0 Internacional</a>.</p>
